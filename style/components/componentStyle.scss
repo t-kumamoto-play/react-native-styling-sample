@@ -1,0 +1,40 @@
+@import '../variables.scss';
+@import '../common.scss';
+
+.container {
+  @extend .container;
+  @extend .borderBlack;
+}
+.textParagraph {
+  font-family: "Roboto";
+  font-size: 15;
+  font-weight: bold;
+}
+.spacing {
+  margin: 10px,
+};
+.textCommon {
+ @extend .textCommon;
+};
+.textH1 {
+  @extend .textH1;
+};
+.textH2 {
+  @extend .textH2;
+};
+.textH3 {
+  @extend .textH3;
+  color: $danger-color;
+};
+.textUnderline {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+};
+.textParagraph {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: bold;
+};
+.textBlue {
+  color: blue;
+};

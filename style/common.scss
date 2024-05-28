@@ -1,2 +1,24 @@
 @import './variables.scss';
 
+.borderBlack {
+  border-color: $blue-dark;
+  border-width: 1px;
+};
+.container {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+};
+.textCommon {
+  color: $blue-dark;
+  font-size: 9px;
+};
+.textH1 {
+  font-size: 30px;
+};
+.textH2 {
+  font-size: 25px;
+};
+.textH3 {
+  font-size: 15px;
+};
