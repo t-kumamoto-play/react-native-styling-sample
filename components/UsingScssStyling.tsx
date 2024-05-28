@@ -17,7 +17,7 @@ export default () => {
           fontSize: 20
         }
       ]}>
-        通常のReact Nativeスタイリング
+        SCSS版React Nativeスタイリング
       </Text>
       <Text style={[styles.textCommon, styles.textH1]}>H1 Text Title Sample</Text>
       <Text style={[styles.textCommon, styles.textH2]}>H2 Text Title Sample</Text>
