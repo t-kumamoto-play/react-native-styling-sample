@@ -7,7 +7,7 @@ import styles from '../style/components/componentStyle.scss';
  * Scssとreact-native-sass-transformerを利用した手法で記述
  */
 
-export default () => {
+export default (): React.JSX.Element => {
   return (
     <View style={[styles.container, styles.borderBlack, styles.spacing]}>
       <Text style={[
@@ -17,7 +17,7 @@ export default () => {
           fontSize: 20
         }
       ]}>
-        SCSS版React Nativeスタイリング
+        SCSS React Nativeスタイリング
       </Text>
       <Text style={[styles.textCommon, styles.textH1]}>H1 Text Title Sample</Text>
       <Text style={[styles.textCommon, styles.textH2]}>H2 Text Title Sample</Text>

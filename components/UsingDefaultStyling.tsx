@@ -5,7 +5,7 @@ import { Text, StyleSheet, View } from  'react-native';
  * デフォルトのスタイリング手法で記述
  */
 
-export default () => {
+export default (): React.JSX.Element => {
   return (
     <View style={[styles.container, styles.borderBlack, styles.spacing]}>
       <Text style={[

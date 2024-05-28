@@ -3,12 +3,17 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
 import UsingDefaultStyling from './components/UsingDefaultStyling';
 import UsingScssStyling from './components/UsingScssStyling';
+import ModalSample from './components/common/Modal';
 
 function TextSamples() {
   return (
     <React.Fragment>
-      <UsingDefaultStyling />
-      <UsingScssStyling />
+      <ModalSample openText='通常スタイル' hideText='閉じる'>
+        <UsingDefaultStyling />
+      </ModalSample>
+      <ModalSample openText='SCSS版スタイル' hideText='閉じる'>
+        <UsingScssStyling />
+      </ModalSample>
     </React.Fragment>
   );
 }
