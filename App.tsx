@@ -1,17 +1,14 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import UsingDefaultStyling from './components/UsingDefaultStyling';
+import UsingScssStyling from './components/UsingScssStyling';
 
 function TextSamples() {
   return (
     <React.Fragment>
-      <Text>H1 Text Title Sample</Text>
-      <Text>H2 Text Title Sample</Text>
-      <Text>p Text Paragraph Sample</Text>
-      <Text>Text Style Sample 1</Text>
-      <Text>Text Style Sample 2</Text>
-      <Text>Text Style Sample 3</Text>
-      <Text>Text Style Sample 4</Text>
+      <UsingDefaultStyling />
+      <UsingScssStyling />
     </React.Fragment>
   );
 }
